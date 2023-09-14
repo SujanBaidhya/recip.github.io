@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding :5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ff6600; /* Change the color on hover */
+}
+
+.recipe-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.left-column
+{
+    margin-left: 25px;
+}
+.right-column
+{
+    width: 45%;
+    float:right;
+    position: absolute;
+    top: 250px;
+    right: 16px;
+    color: black;
+    margin-right: 50px;
+}
+.no-recipes
+{
+    margin: 2px solid red;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+ul[contenteditable="true"],
+textarea {
+    width: 25%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+ul[contenteditable="true"] {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul[contenteditable="true"] li {
+    margin-top: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
